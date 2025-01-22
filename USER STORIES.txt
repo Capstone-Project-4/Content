@@ -1,0 +1,59 @@
+A user can register himself 3 roles:
+	ADMIN
+	COMMUNITY HEAD
+	USER
+
+----------------------------------
+
+User Stories:
+
+As a new user, I want to register with my email and password, So that I can create an account in the system.
+As a user, I want to set up my profile with personal details and contact information, So that my information is complete and accurate.
+I want to provide KYC verification details, So that I can verify my identity as required for managing funds.
+As a user, I want to reset my password if I forget it, So that I can regain access to my account.
+As a normal user, I want to request to join an existing community, So that I can participate in the group's savings activities.
+As a community member, I want to leave a community only after the term period is done and all the dues are paid, So that I can discontinue my participation if needed.
+As a community member, I want to receive reminders for upcoming contributions, So that I don’t miss any payments.
+As a community member, I want to view the total amount saved in the community fund, So that I can see the group's overall progress.
+As a community member, I want to request a loan from the community fund, So that I can meet a financial need.
+As a community member, I want to view the total amount saved in the community fund, So that I can see the group's overall progress.
+
+----------------------------------
+
+Community Head Stories:
+
+As a Community head, I want to register with my email and password, So that I can create an account in the system.
+As a Community head, I want to set up my profile with personal details and contact information, So that my information is complete and accurate.
+I want to provide KYC verification details, So that I can verify my identity as required for managing funds.
+As a Community head, I want to reset my password if I forget it, So that I can regain access to my account.
+The community head will be accepted and verified by the ADMIN.
+As a community head, I want to create a new community by defining its name, purpose, and rules, So that I can begin managing savings for my group.
+As a community head, I want to invite users to join my community via email or username, So that I can build a group of trusted participants.
+When creating a community the community head should be capable of making it public or private.
+If community is public then it is visible to all the users, if private then only to the members of the community.
+As a community head, I want to accept or reject membership requests, So that I can control who joins my group.
+As a community head, I want to remove inactive or problematic members from my community, So that I can maintain a productive group.
+As a community member, I want to view the list of all members in my community, So that I know who is part of the group.
+As a community head, I want to set a fixed contribution amount for all members, So that savings contributions are standardized.
+As a community head, I want to view and approve or deny loan requests, So that I can manage loans fairly for the group.
+As a community head, I want to set a deadline for poll votes, So that decisions are made in a timely manner.
+
+----------------------------------
+
+Transactions and Contributions
+
+As a community member, I want to make regular contributions to the community savings pool.
+As a community head, I want to see an overview of all member contributions, So that I can ensure everyone is meeting their obligations.
+As a community member, I want to receive a receipt or confirmation after making a contribution, So that I have proof of my transaction.
+
+-----------------------------------
+
+Polls and Voting
+
+As a community head, I want to initiate a poll for important community decisions whenever there are multiple loan requests at the same time.
+As a community member, I want to participate in community polls, So that I have a voice in group decisions.
+As a community member, I want to view the results of polls, So that I understand the outcome of group decisions.
+If the number of votes are tied , then the community head will be the final decision-maker.
+
+
+
