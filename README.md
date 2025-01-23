@@ -31,3 +31,11 @@ create packages
   -pojo
 ```
 
+```
+List<EmployeePojo> allEmps = restClient
+    //                             .get()
+    //                             .uri("http://employee-cntr:8082/api/employees/bydept/"+departmentId)
+    //                             .retrieve()
+    //                             .body(List.class);
+```
+
