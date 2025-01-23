@@ -15,6 +15,8 @@ Poll-Vote-Service = 5008
 ```
 server.port=9393
 
+eureka.client.serviceUrl.defaultZone:http://localhost:8761/eureka
+
 spring.datasource.url=jdbc:mysql://mydb.cfe8oqeaccql.ap-south-1.rds.amazonaws.com:3306/test
 spring.datasource.username=admin
 spring.datasource.password=password
